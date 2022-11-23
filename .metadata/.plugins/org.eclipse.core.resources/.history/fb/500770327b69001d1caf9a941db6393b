@@ -1,0 +1,8 @@
+package com.ottogi.dao;
+
+@Repository
+public class MemberDAOImp1 {
+
+	
+	
+}

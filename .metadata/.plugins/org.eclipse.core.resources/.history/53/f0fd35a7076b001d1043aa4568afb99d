@@ -1,0 +1,5 @@
+package com.ottogi.controller;
+
+public class MemberController {
+
+}

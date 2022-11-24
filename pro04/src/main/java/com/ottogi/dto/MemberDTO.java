@@ -3,6 +3,7 @@ package com.ottogi.dto;
 public class MemberDTO {
 	String id;
 	String pw;
+	String name;
 	String email;
 	String tel;
 	String regdate;
@@ -18,6 +19,12 @@ public class MemberDTO {
 	}
 	public void setPw(String pw) {
 		this.pw = pw;
+	}
+	public String getName() {
+		return name;
+	}
+	public void setName(String name) {
+		this.name = name;
 	}
 	public String getEmail() {
 		return email;
@@ -36,6 +43,12 @@ public class MemberDTO {
 	}
 	public void setRegdate(String regdate) {
 		this.regdate = regdate;
+	}
+	
+	@Override
+	public String toString() {
+		return "MemberDTO [id=" + id + ", pw=" + pw + ", name=" + name + ", email=" + email + ", tel=" + tel
+				+ ", regdate=" + regdate + "]";
 	}
 	
 	

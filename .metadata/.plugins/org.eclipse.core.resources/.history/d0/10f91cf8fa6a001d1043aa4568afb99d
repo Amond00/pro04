@@ -1,0 +1,6 @@
+package com.ottogi.dto;
+
+@DATA
+public class SampleDTO {
+
+}

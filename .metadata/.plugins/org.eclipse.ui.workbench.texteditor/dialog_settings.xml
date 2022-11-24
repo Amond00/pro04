@@ -15,7 +15,12 @@
 		<item key="incremental" value="false"/>
 		<item key="isRegEx" value="false"/>
 		<list key="findhistory">
+			<item value="seq"/>
+			<item value="member"/>
+			<item value="welcome"/>
+			<item value="my"/>
 			<item value="myapp"/>
+			<item value="test"/>
 		</list>
 		<list key="replacehistory">
 		</list>

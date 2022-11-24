@@ -1,0 +1,10 @@
+package com.ottogi.dao;
+
+import java.util.List;
+
+import com.ottogi.dto.MemberDTO;
+
+public class BoardDAO {
+	public List<BoardDTO> boardList() throws Exception;
+	public MemberDTO getMember(String id) throws Exception;
+}

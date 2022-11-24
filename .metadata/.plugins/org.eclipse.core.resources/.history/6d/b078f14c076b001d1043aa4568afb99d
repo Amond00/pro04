@@ -1,0 +1,4 @@
+package com.ottogi.controller;
+
+@Controller
+@RequestMapping("/board/*")

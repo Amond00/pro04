@@ -11,59 +11,28 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Insert title here</title>
-	<link rel="stylesheet" href="https://dhbhdrzi4tiry.cloudfront.net/cdn/sites/foundation.min.css">
-    
+	<jsp:include page="../head.jsp" />
+	<script>
+	    $(document).ready( function () {
+	        $('.tb').DataTable();
+	    } );
+    </script>
+	<style>
+		.row.column.text-center {margin-left: 350px; width: 1200px; }
+    	th { background-color:#333; color:white; text-align:center; }
+    </style>
 </head>
 <body>
-<!-- Start Top Bar -->
-    <div class="top-bar">
-      <div class="top-bar-left">
-        <ul class="menu">
-          <li class="menu-text">Marketing Site</li>
-          <li><a href="#">One</a></li>
-          <li><a href="#">Two</a></li>
-        </ul>
-      </div>
-      <div class="top-bar-right">
-        <ul class="menu">
-          <li><a href="#">Three</a></li>
-          <li><a href="#">Four</a></li>
-          <li><a href="#">Five</a></li>
-          <li><a href="#">Six</a></li>
-        </ul>
-      </div>
-    </div>
-    <!-- End Top Bar -->
-
-
-    <div class="orbit" role="region" aria-label="Favorite Space Pictures" data-orbit>
-      <ul class="orbit-container">
-        <button class="orbit-previous" aria-label="previous"><span class="show-for-sr">Previous Slide</span>&#9664;</button>
-        <button class="orbit-next" aria-label="next"><span class="show-for-sr">Next Slide</span>&#9654;</button>
-        <li class="orbit-slide is-active">
-          <img src="https://placehold.it/2000x750">
-        </li>
-        <li class="orbit-slide">
-          <img src="https://placehold.it/2000x750">
-        </li>
-        <li class="orbit-slide">
-          <img src="https://placehold.it/2000x750">
-        </li>
-        <li class="orbit-slide">
-          <img src="https://placehold.it/2000x750">
-        </li>
-      </ul>
-    </div>
-
+	<jsp:include page="../header.jsp" />
     <div class="row column text-center">
       <h2>회원 목록</h2>
       <hr>
-      <table>
+      <table class="tb">
       	<thead>
       		<tr>
-      			<th width="200">No</th>
-      			<th width="200">ID</th>
-      			<th width="200">NAME</th>
+      			<th >No</th>
+      			<th >ID</th>
+      			<th >NAME</th>
       		</tr>
       	</thead>
       	<tbody>
@@ -77,8 +46,6 @@
       	</tbody>
       </table>
     </div>
-
-	<script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
-    <script src="https://dhbhdrzi4tiry.cloudfront.net/cdn/sites/foundation.js"></script>
+	<jsp:include page="../footer.jsp" />
 </body>
 </html>

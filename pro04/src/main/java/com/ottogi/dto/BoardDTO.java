@@ -9,3 +9,4 @@ public class BoardDTO {
 	String author;
 	String regdate;
 }
+

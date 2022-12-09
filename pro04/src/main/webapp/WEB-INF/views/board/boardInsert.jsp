@@ -12,7 +12,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>글 쓰기</title>
     <!-- 헤드 부분 인클루드 -->
-    <jsp:include page="../head.jsp"></jsp:include>
+    <jsp:include page="../include/head.jsp"></jsp:include>
     <script>
 	    $(document).ready( function () {
 	        $('.tb').DataTable();
@@ -26,7 +26,7 @@
 <body>
 	<header id="header">
 		<!-- 헤더 부분 인클루드 -->
-	 	<jsp:include page="../header.jsp"></jsp:include>
+	 	<jsp:include page="../include/header.jsp"></jsp:include>
     </header>
 	
 	<div class="content" id="content">
@@ -38,21 +38,21 @@
 			      <table id="tb">
 			      	<tbody>
 			      		<tr>
-			      			<th style="background-color:#dcdcdc">글 제목</th>
+			      			<th style="background-color:#fef100">글 제목</th>
 			      			<td>
 			      				<input type="text" name="title" id="title" placeholder="제목 입력" maxlength="98" required>
 			      			</td>
 			      		</tr>
 			      		<tr>
-			      			<th style="background-color:#dcdcdc">글 내용</th>
+			      			<th style="background-color:#fef100">글 내용</th>
 			      			<td>
 			      				<textarea name="content" id="content" placeholder="내용 입력" rows="8" cols="100" maxlength="800" required></textarea>
 			      			</td>
 			      		</tr>
 			      		<tr>
 			      			<td colspan="2">
-			      				<input type="submit" class="submit success button" value="글 등록" >
-			      				<a class="button" href="${path1 }/board/list.do">글 목록</a>
+			      				<input type="submit" class="submit success button" value="글 등록" style="margin-left: -1035px; margin-top:30px;">
+			      				<a class="button" href="${path1 }/board/list.do" style="margin-top:30px;">글 목록</a>
 			      			</td>
 			      		</tr>
 			      	</tbody>
@@ -63,7 +63,7 @@
 	</div>
     <footer id="footer" class="footer-nav row expanded collapse">
     	<!-- 푸터 부분 인클루드 -->
-    	<jsp:include page="../footer.jsp"></jsp:include>
+    	<jsp:include page="../include/footer.jsp"></jsp:include>
     </footer>
 </body>
 </html>

@@ -11,7 +11,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>공지사항 글 보기</title>
-    <jsp:include page="../head.jsp" />
+    <jsp:include page="../include/head.jsp" />
 	<script>
 	    $(document).ready( function () {
 	        $('.tb').DataTable();
@@ -23,7 +23,7 @@
     </style>
 </head>
 <body>
-	<jsp:include page="../header.jsp" />
+	<jsp:include page="../include/header.jsp" />
     <div class="row column text-center">
       <h2>공지사항 상세 보기</h2>
       <hr>
@@ -59,6 +59,6 @@
       
     </div>
 	
-	<jsp:include page="../footer.jsp" />
+	<jsp:include page="../include/footer.jsp" />
 </body>
 </html>

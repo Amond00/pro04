@@ -11,7 +11,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>글 수정하기</title>
-    <jsp:include page="../head.jsp" />
+    <jsp:include page="../include/head.jsp" />
     <script>
 	    $(document).ready( function () {
 	        $('.tb').DataTable();
@@ -24,7 +24,7 @@
 </head>
 <body>
 	<header id="header">
-	 	<jsp:include page="../header.jsp" />
+	 	<jsp:include page="../include/header.jsp" />
     </header>
 	
 	<div class="content" id="content">
@@ -61,7 +61,7 @@
 	    </div>
 	</div>
     <footer id="footer" class="footer-nav row expanded collapse">
-    	<jsp:include page="../footer.jsp" />
+    	<jsp:include page="../include/footer.jsp" />
     </footer>
 </body>
 </html>

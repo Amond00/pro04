@@ -1,0 +1,235 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"  %>
+<%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt" %>
+<%@ taglib prefix="fn" uri="http://java.sun.com/jsp/jstl/functions" %>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Document</title>
+<link href="https://www.ottogi.co.kr/css/style.css" type="text/css" rel="stylesheet" media="screen,projection">
+<link href="https://www.ottogi.co.kr/css/materialize.css" type="text/css" rel="stylesheet"
+    media="screen,projection">
+<jsp:include page="../include/head.jsp"></jsp:include>    
+</head>
+<body>
+<jsp:include page="../include/header.jsp"></jsp:include>
+
+    <div class="section allGoods mt90">
+        <div class="row">
+            <div class="tit_content">
+                <h2 class="header center titbul ">제품 소개</h2>
+                <p>아래 분류 기능을 이용하여 편리하게 제품을 검색하세요</p>
+            </div>
+            <div class="container fix goodsList mt70" id="datalist" style="margin-left: 450px;">
+
+                <div class="listTop fix">
+                    <span class="left-text">총 <span class="red-text">96</span>건의 제품이 있습니다.</span>
+                    <span class="rightfilter" style="margin-right: 200px;">
+                        <a>인기상품</a>
+                        <a>최신순</a>
+                        <a>조회순</a>
+                    </span>
+                </div>
+                <div id="all" class="col s12">
+							<h3 class="blind">인기상품제품리스트</h3>
+							<div>
+								<ul class="row">
+								
+									<li class="col">
+										<div class="card" style="overflow: hidden;">
+											<div class="card-image">
+												<!-- 2017-06-04 a 태그 추가 -->
+												<a href="https://www.ottogi.co.kr/product/product_list.asp#none">
+												<img class="activator" src="./오뚜기 _ 오뚜기 제품 소개_files/2022-04-01_785806701.jpg" alt="Real 멕시칸 브리또 베이컨마카로니냉장/냉동식품냉동스낵류">
+												</a>
+											</div>
+											<div class="card-content">
+												<span class="activator grey-text text-lighten-5 ellip2">Real 멕시칸 브리또 베이컨마카로니</span>
+												<p>냉장/냉동식품 &gt; 냉동스낵류</p>
+											</div>
+											<div class="card-reveal center" onclick="location.href=&#39;product_view.asp?page=1&amp;hcode=11&amp;mcode=&amp;stxt=&amp;orderby=BEST&amp;idx=1912&#39;" style="display: none; transform: translateY(0px);">
+												<a href="https://www.ottogi.co.kr/product/product_list.asp#!">자세히보기</a>
+											</div>
+										</div>
+									</li>
+									
+									<li class="col">
+										<div class="card" style="overflow: hidden;">
+											<div class="card-image">
+												<!-- 2017-06-04 a 태그 추가 -->
+												<a href="https://www.ottogi.co.kr/product/product_list.asp#none">
+												<img class="activator" src="./오뚜기 _ 오뚜기 제품 소개_files/2019-11-08_613161200.jpg" alt="오즈키친 철판감자탕볶음밥냉장/냉동식품냉동밥">
+												</a>
+											</div>
+											<div class="card-content">
+												<span class="activator grey-text text-lighten-5 ellip2">오즈키친 철판감자탕볶음밥</span>
+												<p>냉장/냉동식품 &gt; 냉동밥</p>
+											</div>
+											<div class="card-reveal center" onclick="location.href=&#39;product_view.asp?page=1&amp;hcode=11&amp;mcode=&amp;stxt=&amp;orderby=BEST&amp;idx=2029&#39;" style="display: none; transform: translateY(0px);">
+												<a href="https://www.ottogi.co.kr/product/product_list.asp#!">자세히보기</a>
+											</div>
+										</div>
+									</li>
+									
+									<li class="col">
+										<div class="card" style="overflow: hidden;">
+											<div class="card-image">
+												<!-- 2017-06-04 a 태그 추가 -->
+												<a href="https://www.ottogi.co.kr/product/product_list.asp#none">
+												<img class="activator" src="./오뚜기 _ 오뚜기 제품 소개_files/2019-11-26_599298969[2].jpg" alt="올미트콤보 피자냉장/냉동식품냉동피자">
+												</a>
+											</div>
+											<div class="card-content">
+												<span class="activator grey-text text-lighten-5 ellip2">올미트콤보 피자</span>
+												<p>냉장/냉동식품 &gt; 냉동피자</p>
+											</div>
+											<div class="card-reveal center" onclick="location.href=&#39;product_view.asp?page=1&amp;hcode=11&amp;mcode=&amp;stxt=&amp;orderby=BEST&amp;idx=2039&#39;" style="display: none; transform: translateY(0px);">
+												<a href="https://www.ottogi.co.kr/product/product_list.asp#!">자세히보기</a>
+											</div>
+										</div>
+									</li>
+									
+									<li class="col">
+										<div class="card" style="overflow: hidden;">
+											<div class="card-image">
+												<!-- 2017-06-04 a 태그 추가 -->
+												<a href="https://www.ottogi.co.kr/product/product_list.asp#none">
+												<img class="activator" src="./오뚜기 _ 오뚜기 제품 소개_files/2022-04-27_980944631[2].jpg" alt="X.O. 교자 새우&amp;홍게살냉장/냉동식품냉장/냉동식품">
+												</a>
+											</div>
+											<div class="card-content">
+												<span class="activator grey-text text-lighten-5 ellip2">X.O. 교자 새우&amp;홍게살</span>
+												<p>냉장/냉동식품 &gt; 냉장/냉동식품</p>
+											</div>
+											<div class="card-reveal center" onclick="location.href=&#39;product_view.asp?page=1&amp;hcode=11&amp;mcode=&amp;stxt=&amp;orderby=BEST&amp;idx=2043&#39;" style="display: none; transform: translateY(0px);">
+												<a href="https://www.ottogi.co.kr/product/product_list.asp#!">자세히보기</a>
+											</div>
+										</div>
+									</li>
+									
+									<li class="col">
+										<div class="card">
+											<div class="card-image">
+												<!-- 2017-06-04 a 태그 추가 -->
+												<a href="https://www.ottogi.co.kr/product/product_list.asp#none">
+												<img class="activator" src="./오뚜기 _ 오뚜기 제품 소개_files/2021-04-19_457519337.PNG" alt="콤비네이션피자 UNO냉장/냉동식품냉동피자">
+												</a>
+											</div>
+											<div class="card-content">
+												<span class="activator grey-text text-lighten-5 ellip2">콤비네이션피자 UNO</span>
+												<p>냉장/냉동식품 &gt; 냉동피자</p>
+											</div>
+											<div class="card-reveal center" onclick="location.href=&#39;product_view.asp?page=1&amp;hcode=11&amp;mcode=&amp;stxt=&amp;orderby=BEST&amp;idx=2235&#39;">
+												<a href="https://www.ottogi.co.kr/product/product_list.asp#!">자세히보기</a>
+											</div>
+										</div>
+									</li>
+									
+									<li class="col">
+										<div class="card">
+											<div class="card-image">
+												<!-- 2017-06-04 a 태그 추가 -->
+												<a href="https://www.ottogi.co.kr/product/product_list.asp#none">
+												<img class="activator" src="./오뚜기 _ 오뚜기 제품 소개_files/2021-04-19_457519337[2].PNG" alt="불고기피자 UNO냉장/냉동식품냉동피자">
+												</a>
+											</div>
+											<div class="card-content">
+												<span class="activator grey-text text-lighten-5 ellip2">불고기피자 UNO</span>
+												<p>냉장/냉동식품 &gt; 냉동피자</p>
+											</div>
+											<div class="card-reveal center" onclick="location.href=&#39;product_view.asp?page=1&amp;hcode=11&amp;mcode=&amp;stxt=&amp;orderby=BEST&amp;idx=2236&#39;">
+												<a href="https://www.ottogi.co.kr/product/product_list.asp#!">자세히보기</a>
+											</div>
+										</div>
+									</li>
+									
+									<li class="col">
+										<div class="card">
+											<div class="card-image">
+												<!-- 2017-06-04 a 태그 추가 -->
+												<a href="https://www.ottogi.co.kr/product/product_list.asp#none">
+												<img class="activator" src="./오뚜기 _ 오뚜기 제품 소개_files/2021-04-19_457521397[6].jpg" alt="REAL 프렌치 크로크무슈 베이컨치즈(2개입)냉장/냉동식품냉동스낵류">
+												</a>
+											</div>
+											<div class="card-content">
+												<span class="activator grey-text text-lighten-5 ellip2">REAL 프렌치 크로크무슈 베이컨치즈(2개입)</span>
+												<p>냉장/냉동식품 &gt; 냉동스낵류</p>
+											</div>
+											<div class="card-reveal center" onclick="location.href=&#39;product_view.asp?page=1&amp;hcode=11&amp;mcode=&amp;stxt=&amp;orderby=BEST&amp;idx=2237&#39;">
+												<a href="https://www.ottogi.co.kr/product/product_list.asp#!">자세히보기</a>
+											</div>
+										</div>
+									</li>
+									
+									<li class="col">
+										<div class="card">
+											<div class="card-image">
+												<!-- 2017-06-04 a 태그 추가 -->
+												<a href="https://www.ottogi.co.kr/product/product_list.asp#none">
+												<img class="activator" src="./오뚜기 _ 오뚜기 제품 소개_files/2021-04-19_457521397[12].jpg" alt="REAL 프렌치 크로크무슈 갈릭 고르곤졸라(2개입)냉장/냉동식품냉동스낵류">
+												</a>
+											</div>
+											<div class="card-content">
+												<span class="activator grey-text text-lighten-5 ellip2">REAL 프렌치 크로크무슈 갈릭 고르곤졸라(2개입)</span>
+												<p>냉장/냉동식품 &gt; 냉동스낵류</p>
+											</div>
+											<div class="card-reveal center" onclick="location.href=&#39;product_view.asp?page=1&amp;hcode=11&amp;mcode=&amp;stxt=&amp;orderby=BEST&amp;idx=2240&#39;">
+												<a href="https://www.ottogi.co.kr/product/product_list.asp#!">자세히보기</a>
+											</div>
+										</div>
+									</li>
+									
+									<li class="col">
+										<div class="card">
+											<div class="card-image">
+												<!-- 2017-06-04 a 태그 추가 -->
+												<a href="https://www.ottogi.co.kr/product/product_list.asp#none">
+												<img class="activator" src="./오뚜기 _ 오뚜기 제품 소개_files/2022-04-26_980933916[18].jpg" alt="오즈키친 치즈스틱냉장/냉동식품조리냉동류">
+												</a>
+											</div>
+											<div class="card-content">
+												<span class="activator grey-text text-lighten-5 ellip2">오즈키친 치즈스틱</span>
+												<p>냉장/냉동식품 &gt; 조리냉동류</p>
+											</div>
+											<div class="card-reveal center" onclick="location.href=&#39;product_view.asp?page=1&amp;hcode=11&amp;mcode=&amp;stxt=&amp;orderby=BEST&amp;idx=2066&#39;">
+												<a href="https://www.ottogi.co.kr/product/product_list.asp#!">자세히보기</a>
+											</div>
+										</div>
+									</li>
+									
+									<li class="col">
+										<div class="card">
+											<div class="card-image">
+												<!-- 2017-06-04 a 태그 추가 -->
+												<a href="https://www.ottogi.co.kr/product/product_list.asp#none">
+												<img class="activator" src="./오뚜기 _ 오뚜기 제품 소개_files/2022-07-22_76693231[4].jpg" alt="오뚜기 면사랑 고기고명 평양물냉면(2인)냉장/냉동식품냉장면류">
+												</a>
+											</div>
+											<div class="card-content">
+												<span class="activator grey-text text-lighten-5 ellip2">오뚜기 면사랑 고기고명 평양물냉면(2인)</span>
+												<p>냉장/냉동식품 &gt; 냉장면류</p>
+											</div>
+											<div class="card-reveal center" onclick="location.href=&#39;product_view.asp?page=1&amp;hcode=11&amp;mcode=&amp;stxt=&amp;orderby=BEST&amp;idx=2413&#39;">
+												<a href="https://www.ottogi.co.kr/product/product_list.asp#!">자세히보기</a>
+											</div>
+										</div>
+									</li>
+									
+								</ul>
+							</div>
+							<!-- S : paging -->
+							<ul class="pagination center"><li class="active" style="cursor:pointer"><a href="https://www.ottogi.co.kr/product/product_list.asp#!" onclick="getlist(1)" style="cursor:pointer" title="현재페이지1">1</a></li><li class="" style="cursor:pointer"><a href="https://www.ottogi.co.kr/product/product_list.asp#!" onclick="getlist(2)" style="cursor:pointer" title="2">2</a></li><li class="" style="cursor:pointer"><a href="https://www.ottogi.co.kr/product/product_list.asp#!" onclick="getlist(3)" style="cursor:pointer" title="3">3</a></li><li class="" style="cursor:pointer"><a href="https://www.ottogi.co.kr/product/product_list.asp#!" onclick="getlist(4)" style="cursor:pointer" title="4">4</a></li><li class="" style="cursor:pointer"><a href="https://www.ottogi.co.kr/product/product_list.asp#!" onclick="getlist(5)" style="cursor:pointer" title="5">5</a></li><li class="" style="cursor:pointer"><a href="https://www.ottogi.co.kr/product/product_list.asp#!" onclick="getlist(6)" style="cursor:pointer" title="6">6</a></li><li class="" style="cursor:pointer"><a href="https://www.ottogi.co.kr/product/product_list.asp#!" onclick="getlist(7)" style="cursor:pointer" title="7">7</a></li><li class="" style="cursor:pointer"><a href="https://www.ottogi.co.kr/product/product_list.asp#!" onclick="getlist(8)" style="cursor:pointer" title="8">8</a></li><li class="" style="cursor:pointer"><a href="https://www.ottogi.co.kr/product/product_list.asp#!" onclick="getlist(9)" style="cursor:pointer" title="9">9</a></li><li class="" style="cursor:pointer"><a href="https://www.ottogi.co.kr/product/product_list.asp#!" onclick="getlist(10)" style="cursor:pointer" title="10">10</a></li><li class=" next" style="cursor:pointer"><a href="https://www.ottogi.co.kr/product/product_list.asp#!" onclick="getlist(2)" style="cursor:pointer">다음</a></li><li class="end" style="cursor:pointer"><a href="https://www.ottogi.co.kr/product/product_list.asp#!" onclick="getlist(11)" style="cursor:pointer">마지막</a></li></ul>
+							<!-- E : paging -->
+						</div>
+            </div>
+
+        </div>
+    </div>
+    <jsp:include page="../include/footer.jsp"></jsp:include>
+</body>
+</html>

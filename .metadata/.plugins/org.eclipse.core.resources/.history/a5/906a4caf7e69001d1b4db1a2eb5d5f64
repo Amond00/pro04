@@ -1,9 +1,0 @@
-package com.ottogi.dto;
-
-public class MemberDTO {
-	String id;
-	String pw;
-	String email;
-	String tel;
-	String regdate;
-}

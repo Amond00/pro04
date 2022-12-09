@@ -2,3 +2,20 @@
 11월 22, 2022 10:20:06.55 NEW SESSION
 11월 22, 2022 10:20:06.55 [6796:7456:1122/102006.551:ERROR:device_event_log_impl.cc(215)] [10:20:06.551] Bluetooth: bluetooth_adapter_winrt.cc:1074 Getting Default Adapter failed.
 11월 22, 2022 10:21:04.45 [6796:6096:1122/102104.452:ERROR:util.cc(129)] Can't create base directory: C:\Program Files\Google\GoogleUpdater
+
+12월 01, 2022 17:51:38.11 NEW SESSION
+12월 01, 2022 17:51:38.11 [7812:10236:1201/175138.113:ERROR:device_event_log_impl.cc(215)] [17:51:38.112] Bluetooth: bluetooth_adapter_winrt.cc:1074 Getting Default Adapter failed.
+12월 01, 2022 17:52:43.77 [13476:14956:1201/175243.772:ERROR:device_event_log_impl.cc(215)] [17:52:43.772] Bluetooth: bluetooth_adapter_winrt.cc:1074 Getting Default Adapter failed.
+12월 01, 2022 17:53:41.67 [13476:11840:1201/175341.678:ERROR:util.cc(129)] Can't create base directory: C:\Program Files\Google\GoogleUpdater
+12월 01, 2022 18:03:59.63 [13476:14956:1201/180359.631:ERROR:interface_endpoint_client.cc(690)] Message 0 rejected by interface blink.mojom.WidgetHost
+
+12월 02, 2022 10:06:43.67 NEW SESSION
+12월 02, 2022 10:06:43.67 [13716:15636:1202/100643.678:ERROR:device_event_log_impl.cc(215)] [10:06:43.677] Bluetooth: bluetooth_adapter_winrt.cc:1074 Getting Default Adapter failed.
+12월 02, 2022 10:07:40.61 [13716:4256:1202/100740.619:ERROR:util.cc(129)] Can't create base directory: C:\Program Files\Google\GoogleUpdater
+12월 02, 2022 10:19:19.41 [13716:15636:1202/101919.412:ERROR:CONSOLE(1)] "Request Network.loadNetworkResource failed. {"code":-32602,"message":"Frame not found"}", source: devtools://devtools/bundled/devtools-frontend/front_end/core/protocol_client/protocol_client.js (1)
+12월 02, 2022 10:23:56.64 [libprotobuf ERROR ..\..\third_party\protobuf\src\google\protobuf\message_lite.cc:133] Can't parse message of type "safe_browsing.ClientDownloadRequest" because it is missing required fields: (cannot determine missing fields for lite message)
+12월 02, 2022 11:21:50.37 [libprotobuf ERROR ..\..\third_party\protobuf\src\google\protobuf\message_lite.cc:133] Can't parse message of type "safe_browsing.ClientDownloadRequest" because it is missing required fields: (cannot determine missing fields for lite message)
+12월 02, 2022 11:22:37.89 [libprotobuf ERROR ..\..\third_party\protobuf\src\google\protobuf\message_lite.cc:133] Can't parse message of type "safe_browsing.ClientDownloadRequest" because it is missing required fields: (cannot determine missing fields for lite message)
+12월 02, 2022 12:49:02.64 [13716:15636:1202/124902.643:ERROR:interface_endpoint_client.cc(690)] Message 1 rejected by interface blink.mojom.WidgetHost
+12월 02, 2022 13:54:52.62 [13716:16032:1202/135452.620:ERROR:mcs_client.cc(756)] Received close command, resetting connection.
+12월 02, 2022 15:07:40.64 [13716:9032:1202/150740.640:ERROR:util.cc(129)] Can't create base directory: C:\Program Files\Google\GoogleUpdater

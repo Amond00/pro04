@@ -1,0 +1,56 @@
+package com.ottogi.controller;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+@Controller
+@RequestMapping("/sub/*")
+public class SubPageController {
+	
+	@GetMapping("sub1.do")
+	public String getsub1(Model model) throws Exception {
+		return "sub/sub1";
+	}
+	
+	@GetMapping("sub2.do")
+	public String getsub2(Model model) throws Exception {
+		return "sub/sub2";
+	}
+	
+	@GetMapping("sub3.do")
+	public String getsub3(Model model) throws Exception {
+		return "sub/sub3";
+	}
+	
+	@GetMapping("sub4.do")
+	public String getsub4(Model model) throws Exception {
+		return "sub/sub5";
+	}
+	
+	@GetMapping("sub5.do")
+	public String getsub5(Model model) throws Exception {
+		return "sub/sub4";
+	}
+	
+	@GetMapping("sub6.do")
+	public String getsub6(Model model) throws Exception {
+		return "sub/sub6";
+	}
+	
+	@GetMapping("sub7.do")
+	public String getsub7(Model model) throws Exception {
+		return "sub/sub7";
+	}
+	
+	@GetMapping("sub7-1.do")
+	public String getsub71(Model model) throws Exception {
+		return "sub/sub7-1";
+	}
+	
+	@GetMapping("sub8.do")
+	public String getsub8(Model model) throws Exception {
+		return "sub/sub8";
+	}
+}

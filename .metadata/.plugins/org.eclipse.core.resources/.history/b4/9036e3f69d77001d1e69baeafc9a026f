@@ -1,0 +1,148 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"  %>
+<%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt" %>
+<%@ taglib prefix="fn" uri="http://java.sun.com/jsp/jstl/functions" %>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://www.ottogi.co.kr/css/style.css" type="text/css" rel="stylesheet" media="screen,projection">
+    <link href="https://www.ottogi.co.kr/css/materialize.css" type="text/css" rel="stylesheet"
+        media="screen,projection">
+    <jsp:include page="../include/head.jsp"></jsp:include>
+    <style>
+        .container {
+            width: 1200px;
+            height: 3000px;
+        }
+    </style>
+</head>
+<body>
+    <jsp:include page="../include/header.jsp"></jsp:include>
+    <div class="container">
+        <div class="section social">
+            <div class="row">
+                <div class="tit_content">
+                    <h2 class="header center titbul ">ESG경영 소개</h2>
+                    <p class="fs14"></p>
+                </div>
+            </div>
+
+            <div class="row system1 fix mt50">
+                <div class="col s12 m6">
+                    <p class="img"><img src="https://www.ottogi.co.kr/images/content/img/img_esg1.jpg" alt=""></p>
+                </div>
+                <div class="col s12 m6">
+                    <dl>
+                        <dt>개요</dt>
+                        <dd style="word-break:keep-all;">오뚜기의 지속가능경영은 지속적으로 사회와 소통하여, 다양한 이해관계자들이 원하는 가치를 창출하는 것입니다.<br>
+                            더 나아가 ‘인류 식생활 향상에 기여하여 행복한 세상을 만든다’는 사명을 바탕으로, 건강한 식문화를 함께하는 글로벌 오뚜기가 되기 위해 사업을 추진해 나가고
+                            있습니다.</dd>
+                    </dl>
+                </div>
+            </div>
+
+            <div class="row system1 fix">
+                <div class="col s12 m6 mt40">
+                    <dl>
+                        <dt>비전</dt>
+                        <dd style="word-break:keep-all;">오뚜기는 지속가능경영을 통해 사회적 가치를 실현하고 있습니다.<br>
+                            ‘머리 쓰고, 땀 흘리자’라는 오뚜기 창립정신을 되새기며, 앞으로도 50년, <br>100년 이상 지속성장할 수 있도록 미래를 설계하고 프로세스를 구축해 나가고
+                            있습니다.<br>
+                            오뚜기의 지속가능경영 목표는 조직의 안정된 경영과 성장을 바탕으로 고객만족과 사회공헌을 실천하고, 더 나아가 인류 공동의 발전에 기여하는 것입니다. </dd>
+                        <dd></dd>
+                    </dl>
+                </div>
+                <div class="col s12 m6 mt40">
+                    <p class="img"><img src="https://www.ottogi.co.kr/images/content/img/img_esg2.jpg" alt=""></p>
+                </div>
+            </div>
+
+            <div class="fix mt40">
+                <p class="img"><img src="https://www.ottogi.co.kr/images/content/img/img_esg3.jpg"
+                        alt="장기적 투자, 장기적 계획, 안정적인 경영, 경영권, 통제권 / 임금상승,복지확대,인재경영,매출증대, 이익증대, 고용확대, 시장개척,설비투자,리스크관리 /  CSR ,CSV,동반성장,사회공헌,국익증대,고객만족,거래처 이익증대,준법경영, 윤리경영 / 글로벌 동반성장,사회공헌,빈곤퇴치,인류 공동발전,환경경영,기후변화 대응,폐기물 관리">
+                </p>
+            </div>
+
+            <div class="row system1 fix">
+                <div class="mt70">
+                    <dl>
+                        <dt>ESG 경영 조직</dt>
+                        <dd style="word-break:keep-all; text-align:center;">오뚜기는 ESG위원회를 신설하고 ESG 전담 조직을 운영하여,<br>
+                            체계적인 ESG 경영 체계를 구축해 나가고 있습니다.</dd>
+                    </dl>
+                </div>
+                <div class="system1_esg5">
+                    <img src="https://www.ottogi.co.kr/images/content/img/img_esg5.jpg"
+                        alt="이사회, ESG위원회, 대표이사, 운영위원회, ESG추진팀, ESG워킹그룹 (환경, 사회, 지배구조 실무부서), E. 환경 (공장, 조달팀, 환경안전팀, 연구소), S. 사회 (품질보증실, 홍보실, 환경안전팀, 인사팀), G. 지배구조 (법무팀, 내부회계팀, 재경팀), ESG TFT(오뚜기 및 관계사 임직원)">
+                </div>
+            </div>
+
+            <div class="row system1 fix">
+                <div class="col s12 m6">
+                    <dl>
+                        <dt>ESG 등급</dt>
+                        <dd style="word-break:keep-all;">오뚜기는 환경 보존, 준법 및 윤리 경영, 투명한 지배구조를 통해 지속적으로 성장하는 기업이 되도록
+                            노력하겠습니다.</dd>
+                    </dl>
+                    <div class="agree2 mt40">
+                        <table class="table03">
+                            <caption>한국기업지배구조원(KCGS) 평가결과</caption>
+                            <colgroup>
+                                <col width="20%">
+                                <col width="20%">
+                                <col width="20%">
+                                <col width="20%">
+                                <col width="20%">
+                            </colgroup>
+                            <thead>
+                                <tr style="background:#f5f5f5;border-top:2px solid #afafaf;">
+                                    <th scope="col">연도</th>
+                                    <th scope="col">통합등급</th>
+                                    <th scope="col">E. 환경</th>
+                                    <th scope="col">S. 사회</th>
+                                    <th scope="col">G. 지배구조</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr class="center">
+                                    <td scope="row"><strong>2021년</strong></td>
+                                    <td><strong>A</strong></td>
+                                    <td><strong>B+</strong></td>
+                                    <td><strong>A+</strong></td>
+                                    <td><strong>B+</strong></td>
+                                </tr>
+                                <tr class="center">
+                                    <td scope="row">2020년</td>
+                                    <td>B+</td>
+                                    <td>B+</td>
+                                    <td>A</td>
+                                    <td>B</td>
+                                </tr>
+                                <tr class="center">
+                                    <td scope="row">2019년</td>
+                                    <td>B+</td>
+                                    <td>B+</td>
+                                    <td>A</td>
+                                    <td>B+</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <p class="mt20"><i class="p_dot"></i>한국기업지배구조원(KCGS) 평가결과</p>
+                    </div>
+                </div>
+                <div class="col s12 m6 mt20 system3">
+                    <p class="img"><img src="https://www.ottogi.co.kr/images/content/img/img_esg6.jpg"
+                            alt="2021년 한국기업지배구조원(KCGS) 평가 결과 - E.환경 B+, S.사회 A+, G.지배구조 B+, 통합등급 A"></p>
+                    <h3 style="font-size:16px;text-align:center;">2021년 한국기업지배구조원(KCGS) 평가 결과</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -37,7 +37,7 @@ public class BoardController {
 		return "board/boardDetail";
 	}
 	
-	@GetMapping("insert.do")
+	@GetMapping("inserts.do")
 	public String insertForm(HttpServletRequest request, Model model) throws Exception {
 		return "board/boardInsert";
 	}

@@ -1,8 +1,0 @@
-package com.ottogi.controller;
-
-
-@Controller
-@RequestMapping("/board/*")
-public class BoardController {
-
-}

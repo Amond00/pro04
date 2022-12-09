@@ -1,0 +1,16 @@
+package com.ottogi.controller;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+@Controller
+@RequestMapping("/sub/*")
+public class SubPageController {
+	
+	@GetMapping("sub1.do")
+	public String getAgree(Model model) throws Exception {
+		return "member/agree";
+	}
+}

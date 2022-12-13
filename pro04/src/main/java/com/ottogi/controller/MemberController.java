@@ -140,6 +140,22 @@ public class MemberController {
 		}
 	}
 	
+	@RequestMapping(value = "logins.do", method = RequestMethod.POST)
+    public String CustomLogin(@RequestParam String id, @RequestParam String pw) throws Exception {
+        session.invalidate();
+        MemberDTO memdto = new MemberDTO();
+        memdto.setId(id);
+        memdto.setPw(pw);
+        MemberDTO login = memberService.logins(memdto);
+        if (login != null) {
+            session.setAttribute("sid", id);
+            return "redirect:/";
+        } else {
+            return "redirect:/custom/loginForm.do";
+
+        }
+    }
+	
 	//Ajax를 이용하는 방법
 	@RequestMapping(value="loginCheck.do", method = RequestMethod.POST)
 	public String memberLoginCtrl(MemberDTO mdto, RedirectAttributes rttr) throws Exception {
@@ -183,4 +199,6 @@ public class MemberController {
 		session.invalidate();
 		return "redirect:/";
 	}
+	
+	
 }

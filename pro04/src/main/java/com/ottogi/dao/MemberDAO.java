@@ -13,4 +13,5 @@ public interface MemberDAO {
 	public MemberDTO login(MemberDTO mdto) throws Exception;
 	public void memberUpdate(MemberDTO mdto) throws Exception;
 	public void memberDelete(String id) throws Exception;
+	public MemberDTO logins(MemberDTO memdto) throws Exception;
 }

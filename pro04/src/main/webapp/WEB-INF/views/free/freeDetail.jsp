@@ -20,7 +20,7 @@
     </script>
     <style>
 	    .row.column.text-center {margin-left: 350px; width: 1200px; }
-	    th { background-color:#333; color:white; text-align:center; }
+	    th { background-color:#fef100; color:white; text-align:center; }
     </style>
 </head>
 <body>
@@ -38,27 +38,27 @@
 		      	<tbody>
 		
 		      		<tr>
-		      			<th style="background-color:#dcdcdc">글 번호</th>
+		      			<th>글 번호</th>
 		      			<td>${dto.bno }</td>
 		      		</tr>	
 		      		<tr>
-		      			<th style="background-color:#dcdcdc">글 제목</th>
+		      			<th >글 제목</th>
 		      			<td>${dto.title }</td>
 		      		</tr>
 		      		<tr>
-		      			<th style="background-color:#dcdcdc">글 내용</th>
+		      			<th >글 내용</th>
 		      			<td><p>${dto.content }</p></td>
 		      		</tr>
 		      		<tr>
-		      			<th style="background-color:#dcdcdc">작성자</th>
+		      			<th >작성자</th>
 		      			<td>${dto.id }</td>
 		      		</tr>
 		      		<tr>
-		      			<th style="background-color:#dcdcdc">작성일시</th>
+		      			<th >작성일시</th>
 		      			<td>${dto.regdate }</td>
 		      		</tr>
 		      		<tr>
-		      			<th style="background-color:#dcdcdc">읽은 횟수</th>
+		      			<th >읽은 횟수</th>
 		      			<td>${dto.visited }</td>
 		      		</tr>
 		      	</tbody>

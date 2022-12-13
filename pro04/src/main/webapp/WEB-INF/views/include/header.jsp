@@ -45,9 +45,18 @@
     </ul>
   <div class="top-bar-right">
     <ul class="menu" style="background-color:#fef100;">
-      <li><a href="${path1 }/member/loginForm.do" style="background-color:rgba(220, 44, 52); margin-right:10px; color:white; ">로그인</a></li>
-      <li><a href="${path1 }/member/agree.do" style="background-color:rgba(220, 44, 52); margin-right:10px; color:white; ">회원가입</a></li>
-      <li><a href="${path1 }/member/list.do" style="background-color:rgba(220, 44, 52); color:white; " style="color:red; ">회원관리</a></li>
+	    <c:if test="${empty sid }">
+	      <li><a href="${path1 }/member/loginForm.do" style="background-color:rgba(220, 44, 52); margin-right:10px; color:white; ">로그인</a></li>
+	      <li><a href="${path1 }/member/agree.do" style="background-color:rgba(220, 44, 52); margin-right:10px; color:white; ">회원가입</a></li>
+	    </c:if>
+	    <c:if test="${not empty sid }"> 
+	    	<li style="margin-right:4px; margin-top:4px; ">${sid } 님 안녕하세요</li>
+	    	<li><a href="${path1 }/member/logout.do" style="background-color:rgba(220, 44, 52); color:white; margin-right:4px;">로그아웃</a></li>
+	     	<li><a href="${path1 }/member/list.do" style="background-color:rgba(220, 44, 52); color:white;">마이페이지</a></li>
+	    </c:if>
+	    <c:if test='${sid eq "admin"}'>
+	        <li><a style="background-color:rgba(220, 44, 52); color:white; margin-left:4px;" href="#">관리자 페이지</a></li>
+	    </c:if> 
     </ul>
   </div>
 </div>

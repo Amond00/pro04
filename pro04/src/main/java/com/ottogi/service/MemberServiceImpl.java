@@ -81,5 +81,11 @@ public class MemberServiceImpl implements MemberService {
 	public void memberDelete(String id) throws Exception {
 		memberDao.memberDelete(id);
 	}
+	
+	// 로그인
+    @Override
+    public MemberDTO logins(MemberDTO memdto) throws Exception {
+        return memberDao.logins(memdto);
+    }
 
 }

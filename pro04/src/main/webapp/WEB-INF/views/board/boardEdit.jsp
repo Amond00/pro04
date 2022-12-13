@@ -36,14 +36,14 @@
 			      <table id="tb">
 			      	<tbody>
 			      		<tr>
-			      			<th style="background-color:#dcdcdc">글 제목</th>
+			      			<th style="background-color:#fef100;">글 제목</th>
 			      			<td>
 			      				<input type="hidden" name="no" id="no" value="${dto.no }" >
 			      				<input type="text" name="title" id="title" placeholder="제목 입력" value="${dto.title }" maxlength="98" required>
 			      			</td>
 			      		</tr>
 			      		<tr>
-			      			<th style="background-color:#dcdcdc">글 내용</th>
+			      			<th style="background-color:#fef100;">글 내용</th>
 			      			<td>
 			      				<textarea name="content" id="content" placeholder="내용 입력" rows="8" cols="100" maxlength="800" required>${dto.content }</textarea>
 			      			</td>

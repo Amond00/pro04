@@ -19,7 +19,7 @@
     </script>
 	<style>
 		.row.column.text-center {margin-left: 350px; width: 1200px; }
-    	th { background-color:#dcdcdc; color:white; text-align:center; }
+    	th { background-color:#fef100; color:white; text-align:center; }
     </style>
 </head>
 <body>

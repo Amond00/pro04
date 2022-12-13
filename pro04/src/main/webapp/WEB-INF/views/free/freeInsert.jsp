@@ -31,13 +31,13 @@
 			      <table id="table1">
 			      	<tbody>
 			      		<tr>
-			      			<th style="background-color:#dcdcdc">글 제목</th>
+			      			<th >글 제목</th>
 			      			<td>
 			      				<input type="text" name="title" id="title" placeholder="제목 입력" maxlength="98" required>
 			      			</td>
 			      		</tr>
 			      		<tr>
-			      			<th style="background-color:#dcdcdc">글 내용</th>
+			      			<th >글 내용</th>
 			      			<td>
 			      				<textarea name="content" id="content" placeholder="내용 입력" rows="8" cols="100" maxlength="800" required></textarea>
 			      				<script>

@@ -30,7 +30,7 @@
 						document.loginForm.userid.focus();
 						</script>
 					</c:if>
-					<form action="${path1 }/member/signin.do" method="post" name="loginForm">
+					<form action="${path1 }/member/logins.do" method="post" name="loginForm">
 						<div class="table_form_wrap">
 							<table class="table_form">
 								<tbody>
